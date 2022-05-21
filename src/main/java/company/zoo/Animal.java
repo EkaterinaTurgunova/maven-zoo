@@ -1,36 +1,14 @@
 package company.zoo;
 
-public abstract class Animal extends Entity implements ZooDoing  {
-
-    protected String kindOfEntity;
-
-    public String getKindOfEntity() {
-        return "This is a " + kindOfEntity +".";
-    }
+public abstract class Animal extends Creature implements ZooAction {
 
     @Override
     public void breath() {
-        System.out.printf("The %s breathes oxygen. ", kindOfEntity);
+        System.out.printf("The %s breathes oxygen.", kindOfCreature);
     }
 
     @Override
     public void move() {
-        System.out.printf("\nThe %s walks on the ground. ", kindOfEntity);
+        System.out.printf("\nThe %s walks on the land. ", kindOfCreature);
     }
-
-
-//
-//    @Override
-//    public void breath() {
-//        System.out.println("The %s is breathes air", ());
-//
-//    }
-//
-//    @Override
-//    public void move() {
-
-    }
-
-
-
-
+}

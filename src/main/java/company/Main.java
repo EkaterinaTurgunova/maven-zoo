@@ -27,8 +27,8 @@ public class Main {
                         Cheetah cheetah = new Cheetah();
                         System.out.println(".......................................");
 
-                        System.out.println(cheetah.getKindOfEntity());
-                        cheetah.feature();
+                        System.out.println(cheetah.getKindOfCreature());
+                        System.out.println(cheetah.getSpecificSkill());
                         cheetah.breath();
                         cheetah.move();
 
@@ -40,8 +40,8 @@ public class Main {
                         Giraffe giraffe = new Giraffe();
                         System.out.println(".......................................");
 
-                        System.out.println(giraffe.getKindOfEntity());
-                        giraffe.feature();
+                        System.out.println(giraffe.getKindOfCreature());
+                        System.out.println(giraffe.getSpecificSkill());
                         giraffe.breath();
                         giraffe.move();
                         System.out.println("\n.......................................");
@@ -52,8 +52,8 @@ public class Main {
                         Hummingbird hummingbird = new Hummingbird();
                         System.out.println(".......................................");
 
-                        System.out.println(hummingbird.getKindOfEntity());
-                        hummingbird.feature();
+                        System.out.println(hummingbird.getKindOfCreature());
+                        System.out.println(hummingbird.getSpecificSkill());
                         hummingbird.breath();
                         hummingbird.move();
                         System.out.println("\n.......................................");
@@ -64,8 +64,8 @@ public class Main {
                         NeedleTailedSwift needleTailedSwift = new NeedleTailedSwift();
                         System.out.println(".......................................");
 
-                        System.out.println(needleTailedSwift.getKindOfEntity());
-                        needleTailedSwift.feature();
+                        System.out.println(needleTailedSwift.getKindOfCreature());
+                        System.out.println(needleTailedSwift.getSpecificSkill());
                         needleTailedSwift.breath();
                         needleTailedSwift.move();
                         System.out.println("\n.......................................");
@@ -76,8 +76,8 @@ public class Main {
                         Boxfish boxfish = new Boxfish();
                         System.out.println(".......................................");
 
-                        System.out.println(boxfish.getKindOfEntity());
-                        boxfish.feature();
+                        System.out.println(boxfish.getKindOfCreature());
+                        System.out.println(boxfish.getSpecificSkill());
                         boxfish.breath();
                         boxfish.move();
                         System.out.println("\n.......................................");
@@ -88,8 +88,8 @@ public class Main {
                         Butterflyfish butterflyfish = new Butterflyfish();
                         System.out.println(".......................................");
 
-                        System.out.println(butterflyfish.getKindOfEntity());
-                        butterflyfish.feature();
+                        System.out.println(butterflyfish.getKindOfCreature());
+                        System.out.println(butterflyfish.getSpecificSkill());
                         butterflyfish.breath();
                         butterflyfish.move();
                         System.out.println("\n.......................................");
@@ -114,7 +114,5 @@ public class Main {
             }
 
         } while (number != 0);
-
-
     }
 }
