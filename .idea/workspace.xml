@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2420acde-20a3-45c5-8976-f996efa43441" name="Changes" comment="Adding a project to the global repository." />
+    <list default="true" id="6ffdf1bd-1cc3-4964-ba41-9092f74a2dae" name="Changes" comment="Adding a project to the global repository.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maven_project_zoo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Maven_project_zoo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/zoo/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/zoo/Bird.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/zoo/Boxfish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/zoo/Butterflyfish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/zoo/Cheetah.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/zoo/Creature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/zoo/Fish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/zoo/Giraffe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/zoo/Hummingbird.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/zoo/NeedleTailedSwift.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/zoo/ZooAction.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="unit-tests" />
+        <entry key="$PROJECT_DIR$" value="my-project" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,6 +51,9 @@
     </option>
   </component>
   <component name="ProjectId" id="29H489KJwFI6yQDriTRCIrSOLS3" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,14 +61,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Projects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\katya\Documents\Githubreps\maven-zoo\src\main\java" />
       <recent name="C:\Users\katya\Documents\Githubreps\maven-zoo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="company.zoo" />
+      <recent name="company" />
     </key>
   </component>
   <component name="RunManager">
@@ -67,8 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Maven_project_zoo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Maven_project_zoo" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -103,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653104478177</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding a project to the global repository.">
+      <created>1653362033537</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653362033537</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
